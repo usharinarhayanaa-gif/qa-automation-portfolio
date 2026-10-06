@@ -1,0 +1,7 @@
+target/
+test-output/
+node_modules/
+playwright-report/
+test-results/
+.idea/
+*.iml
