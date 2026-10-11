@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-11T23:09:07 IST" name="SauceDemo Suite" finished-at="2026-10-11T23:09:25 IST" duration-ms="18042">
+  <suite started-at="2026-10-12T01:17:34 IST" name="QA Automation Suite" finished-at="2026-10-12T01:17:48 IST" duration-ms="14387">
     <groups>
     </groups>
-    <test started-at="2026-10-11T23:09:07 IST" name="Login Tests" finished-at="2026-10-11T23:09:25 IST" duration-ms="18042">
+    <test started-at="2026-10-12T01:17:34 IST" name="SauceDemo Tests" finished-at="2026-10-12T01:17:43 IST" duration-ms="9484">
       <class name="com.portfolio.qa.tests.saucedemo.SauceLoginTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@7ed7259e]" started-at="2026-10-11T23:09:07 IST" name="setUp" finished-at="2026-10-11T23:09:20 IST" duration-ms="13069" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@41fbdac4]" started-at="2026-10-12T01:17:34 IST" name="setUp" finished-at="2026-10-12T01:17:35 IST" duration-ms="1557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSauceDemoLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@7ed7259e]" started-at="2026-10-11T23:09:20 IST" name="testSauceDemoLogin" description="Verify authentication flows on SauceDemo" data-provider="loginScenarios" finished-at="2026-10-11T23:09:22 IST" duration-ms="1327" status="PASS">
+        <test-method signature="testSauceDemoLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@41fbdac4]" started-at="2026-10-12T01:17:35 IST" name="testSauceDemoLogin" description="Verify authentication flows on SauceDemo" data-provider="loginScenarios" finished-at="2026-10-12T01:17:36 IST" duration-ms="647" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSauceDemoLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@7ed7259e]" started-at="2026-10-11T23:09:22 IST" name="tearDown" finished-at="2026-10-11T23:09:22 IST" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@41fbdac4]" started-at="2026-10-12T01:17:36 IST" name="tearDown" finished-at="2026-10-12T01:17:36 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@7ed7259e]" started-at="2026-10-11T23:09:22 IST" name="setUp" finished-at="2026-10-11T23:09:23 IST" duration-ms="807" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@41fbdac4]" started-at="2026-10-12T01:17:36 IST" name="setUp" finished-at="2026-10-12T01:17:37 IST" duration-ms="729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSauceDemoLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@7ed7259e]" started-at="2026-10-11T23:09:23 IST" name="testSauceDemoLogin" description="Verify authentication flows on SauceDemo" data-provider="loginScenarios" finished-at="2026-10-11T23:09:23 IST" duration-ms="686" status="PASS">
+        <test-method signature="testSauceDemoLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@41fbdac4]" started-at="2026-10-12T01:17:37 IST" name="testSauceDemoLogin" description="Verify authentication flows on SauceDemo" data-provider="loginScenarios" finished-at="2026-10-12T01:17:37 IST" duration-ms="617" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,15 +71,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSauceDemoLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@7ed7259e]" started-at="2026-10-11T23:09:23 IST" name="tearDown" finished-at="2026-10-11T23:09:23 IST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@41fbdac4]" started-at="2026-10-12T01:17:37 IST" name="tearDown" finished-at="2026-10-12T01:17:38 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@7ed7259e]" started-at="2026-10-11T23:09:23 IST" name="setUp" finished-at="2026-10-11T23:09:24 IST" duration-ms="883" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@41fbdac4]" started-at="2026-10-12T01:17:38 IST" name="setUp" finished-at="2026-10-12T01:17:38 IST" duration-ms="800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSauceDemoLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@7ed7259e]" started-at="2026-10-11T23:09:24 IST" name="testSauceDemoLogin" description="Verify authentication flows on SauceDemo" data-provider="loginScenarios" finished-at="2026-10-11T23:09:25 IST" duration-ms="723" status="PASS">
+        <test-method signature="testSauceDemoLogin(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@41fbdac4]" started-at="2026-10-12T01:17:38 IST" name="testSauceDemoLogin" description="Verify authentication flows on SauceDemo" data-provider="loginScenarios" finished-at="2026-10-12T01:17:39 IST" duration-ms="607" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,11 +105,61 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSauceDemoLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@7ed7259e]" started-at="2026-10-11T23:09:25 IST" name="tearDown" finished-at="2026-10-11T23:09:25 IST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceLoginTests@41fbdac4]" started-at="2026-10-12T01:17:39 IST" name="tearDown" finished-at="2026-10-12T01:17:39 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.portfolio.qa.tests.saucedemo.SauceLoginTests -->
-    </test> <!-- Login Tests -->
-  </suite> <!-- SauceDemo Suite -->
+      <class name="com.portfolio.qa.tests.saucedemo.SauceInventoryCheckoutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceInventoryCheckoutTests@15ff3e9e]" started-at="2026-10-12T01:17:39 IST" name="setUp" finished-at="2026-10-12T01:17:40 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginStandardUser()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceInventoryCheckoutTests@15ff3e9e]" started-at="2026-10-12T01:17:40 IST" name="loginStandardUser" finished-at="2026-10-12T01:17:40 IST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginStandardUser -->
+        <test-method signature="testEndToEndCheckout()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceInventoryCheckoutTests@15ff3e9e]" started-at="2026-10-12T01:17:40 IST" name="testEndToEndCheckout" description="Verify E2E checkout completes" finished-at="2026-10-12T01:17:41 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndToEndCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceInventoryCheckoutTests@15ff3e9e]" started-at="2026-10-12T01:17:41 IST" name="tearDown" finished-at="2026-10-12T01:17:42 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceInventoryCheckoutTests@15ff3e9e]" started-at="2026-10-12T01:17:42 IST" name="setUp" finished-at="2026-10-12T01:17:42 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginStandardUser()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceInventoryCheckoutTests@15ff3e9e]" started-at="2026-10-12T01:17:42 IST" name="loginStandardUser" finished-at="2026-10-12T01:17:43 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginStandardUser -->
+        <test-method signature="testPriceSortLowToHigh()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceInventoryCheckoutTests@15ff3e9e]" started-at="2026-10-12T01:17:43 IST" name="testPriceSortLowToHigh" description="Verify Price Low to High Sorting" finished-at="2026-10-12T01:17:43 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPriceSortLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portfolio.qa.tests.saucedemo.SauceInventoryCheckoutTests@15ff3e9e]" started-at="2026-10-12T01:17:43 IST" name="tearDown" finished-at="2026-10-12T01:17:43 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.portfolio.qa.tests.saucedemo.SauceInventoryCheckoutTests -->
+    </test> <!-- SauceDemo Tests -->
+    <test started-at="2026-10-12T01:17:43 IST" name="Automation Exercise Tests" finished-at="2026-10-12T01:17:48 IST" duration-ms="4882">
+      <class name="com.portfolio.qa.tests.automationexercise.AutomationExerciseTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.portfolio.qa.tests.automationexercise.AutomationExerciseTests@4ec4f3a0]" started-at="2026-10-12T01:17:43 IST" name="setUp" finished-at="2026-10-12T01:17:44 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchProduct()[pri:0, instance:com.portfolio.qa.tests.automationexercise.AutomationExerciseTests@4ec4f3a0]" started-at="2026-10-12T01:17:44 IST" name="testSearchProduct" description="Search product and verify catalog result cards" finished-at="2026-10-12T01:17:48 IST" duration-ms="3991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portfolio.qa.tests.automationexercise.AutomationExerciseTests@4ec4f3a0]" started-at="2026-10-12T01:17:48 IST" name="tearDown" finished-at="2026-10-12T01:17:48 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.portfolio.qa.tests.automationexercise.AutomationExerciseTests -->
+    </test> <!-- Automation Exercise Tests -->
+  </suite> <!-- QA Automation Suite -->
 </testng-results>

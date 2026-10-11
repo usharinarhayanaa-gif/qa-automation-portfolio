@@ -1,2 +1,4 @@
+com\portfolio\qa\tests\automationexercise\AutomationExerciseTests.class
 com\portfolio\qa\tests\saucedemo\SauceLoginTests.class
+com\portfolio\qa\tests\saucedemo\SauceInventoryCheckoutTests.class
 com\portfolio\qa\tests\base\BaseTest.class
