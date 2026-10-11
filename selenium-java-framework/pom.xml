@@ -11,6 +11,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium.version>4.21.0</selenium.version>
         <testng.version>7.10.2</testng.version>
+        <extentreports.version>5.1.1</extentreports.version>
         <surefire.version>3.2.5</surefire.version>
     </properties>
     <dependencies>
@@ -23,6 +24,11 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${extentreports.version}</version>
         </dependency>
     </dependencies>
     <build>

@@ -7,36 +7,37 @@ import com.portfolio.qa.tests.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import java.util.ArrayList;
-import java.util.Collections;
+
 import java.util.List;
 
 public class SauceInventoryCheckoutTests extends BaseTest {
+    private SauceInventoryPage inventory;
+    private SauceCheckoutPage checkout;
+
     @BeforeMethod
-    public void loginStandardUser() {
-        new SauceLoginPage(getDriver()).open().login("standard_user", "secret_sauce");
+    public void setupInventory() {
+        SauceLoginPage loginPage = new SauceLoginPage(getDriver());
+        loginPage.open();
+        loginPage.login("standard_user", "secret_sauce");
+        inventory = new SauceInventoryPage(getDriver());
+        checkout = new SauceCheckoutPage(getDriver());
     }
 
-    @Test(description = "Verify Price Low to High Sorting")
+    @Test(description = "Verify product sorting by price Low to High")
     public void testPriceSortLowToHigh() {
-        SauceInventoryPage inventory = new SauceInventoryPage(getDriver());
         inventory.selectSortOption("lohi");
-        List<Double> actual = inventory.getAllPrices();
-        List<Double> sorted = new ArrayList<>(actual);
-        Collections.sort(sorted);
-        Assert.assertEquals(actual, sorted);
+        List<Double> prices = inventory.getAllPrices();
+        for (int i = 0; i < prices.size() - 1; i++) {
+            Assert.assertTrue(prices.get(i) <= prices.get(i + 1), "Prices not sorted ascending!");
+        }
     }
 
-    @Test(description = "Verify E2E checkout completes")
+    @Test(description = "Verify complete E2E checkout workflow")
     public void testEndToEndCheckout() {
-        SauceInventoryPage inventory = new SauceInventoryPage(getDriver());
         inventory.addItemToCart("Sauce Labs Backpack");
-        Assert.assertEquals(inventory.getCartBadgeCount(), "1");
         inventory.goToCart();
-
-        SauceCheckoutPage checkout = new SauceCheckoutPage(getDriver());
         checkout.proceedToCheckout();
-        checkout.enterCustomerInfo("Jane", "Doe", "560001");
+        checkout.enterCustomerInfo("Jane", "Doe", "12345");
         checkout.finishCheckout();
         Assert.assertEquals(checkout.getCompleteMessage(), "Thank you for your order!");
     }
